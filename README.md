@@ -28,7 +28,11 @@
 答：1.jdk的动态代理，要实现同一个借口。依靠反射原理实现，对目标类实现增强，利用切面。
     2.CGLib的动态代理，利用ASM动态生成字节码。不需要实现同一个借口，利用集成方式。
 -----HashMap的并发问题   
-了解LinkedHashMap的应用吗  
+答：https://www.cnblogs.com/andy-zhou/p/5402984.html
+http://blog.csdn.net/justloveyou_/article/details/62893086
+        并发且resize时候，可能会出现循环链表，出现死循环。
+-----了解LinkedHashMap的应用吗  
+答：http://blog.csdn.net/justloveyou_/article/details/71713781
 反射的原理，反射创建类实例的三种方式是什么？   
 cloneable接口实现原理，浅拷贝or深拷贝   
 Java NIO使用   
