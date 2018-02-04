@@ -32,8 +32,8 @@
 http://blog.csdn.net/justloveyou_/article/details/62893086
         并发且resize时候，可能会出现循环链表，出现死循环。
 -----了解LinkedHashMap的应用吗  
-答：http://blog.csdn.net/justloveyou_/article/details/71713781
-反射的原理，反射创建类实例的三种方式是什么？   
+答：http://blog.csdn.net/justloveyou_/article/details/71713781 基于hashmap和linklist进行了排序，经常使用的元素就放在后面，最近最少使用的就排在了链表的前面，基于LinkedHashMap的访问顺序的特点，可构造一个LRU（Least Recently Used）最近最少使用简单缓存。也有一些开源的缓存产品如ehcache的淘汰策略（LRU）就是在LinkedHashMap上扩展的。
+------反射的原理，反射创建类实例的三种方式是什么？   
 cloneable接口实现原理，浅拷贝or深拷贝   
 Java NIO使用   
 hashtable和hashmap的区别及实现原理，hashmap会问到数组索引，hash碰撞怎么解决   
